@@ -3,3 +3,5 @@ beautifulsoup4
 curl_cffi
 fake_useragent
 dotenv
+mcp
+fastmcp

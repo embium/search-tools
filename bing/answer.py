@@ -363,7 +363,6 @@ def get_bing_answer(
     timeout: int = 15,
     max_attempts: int = 3,
     proxy: str | None = None,
-    **kwargs: Any,
 ) -> BingAnswer | None:
     """Fetch AI generated answer directly from Bing with citations.
 
