@@ -24,8 +24,9 @@ def search(
     format: Literal["html", "markdown"] = "html",
 ) -> list[Any]:
     """
-    Search the Brave search engine
+    General web search with result extraction, news filtering, and pagination.
     """
+
     return search_brave(
         query,
         max_results,
@@ -50,7 +51,7 @@ def answer(
     proxy: str | None = None,
 ) -> BingAnswer | None:
     """
-    Ask Bing a question and receive an answer with citations.
+    Ask a question and get a summarized AI-generated answer with citations.
     """
 
     return get_bing_answer(query, timeout, max_attempts, proxy)
