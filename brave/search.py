@@ -392,10 +392,7 @@ def search_brave(
                     )
 
                 html = response.text
-                with open("brave.html", "w", encoding="utf-8") as f:
-                    f.write(html)
-                # with open("brave.html", "r", encoding="utf-8") as f:
-                #     html = f.read()
+
                 if not html or not html.strip():
                     raise RuntimeError(
                         "Empty response received from Brave Search"
