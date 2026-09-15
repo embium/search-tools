@@ -1,0 +1,5 @@
+trafilatura
+beautifulsoup4
+curl_cffi
+fake_useragent
+dotenv
